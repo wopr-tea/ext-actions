@@ -33,4 +33,4 @@ jobs:
           echo test, and deploy your project.
       - name: New test line
         run: |
-          curl --request POST -u github:${{ secrets.GITHUB_TOKEN }} --url https://api.github.com/repos/octocat/wopr-tea/ext-actions/workflows/14843922/dispatches --header 'Accept: application/vnd.github.v3+json' --header 'Content-Type: application/json' --data '{"ref":"main"}'
+          curl --request POST -u github:${{ secrets.GITHUB_TOKEN }} --url https://api.github.com/repos/wopr-tea/ext-actions/workflows/14843922/dispatches --header 'Accept: application/vnd.github.v3+json' --header 'Content-Type: application/json' --data '{"ref":"main"}'
